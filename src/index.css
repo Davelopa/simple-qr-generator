@@ -64,7 +64,7 @@ body {
 }
 
 .app {
-  padding: calc(1rem + 0.5vw + 0.5vh) calc(1rem + 0.5vw + 0.5vh);
+  padding: calc(1rem + 0.5vw + 0.5vh);
 }
 
 h1 {
@@ -110,8 +110,8 @@ img {
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
+  width: 10rem;
+  height: 10rem;
 }
 
 

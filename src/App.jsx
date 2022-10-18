@@ -30,7 +30,7 @@ function App() {
     <div className="app">
     <img class="logo" src={QRLogo} alt="" />
       <h1>Generate QR-codes</h1>
-      <input type="text" placeholder="esim. www.YourWebsite.com" value={url} onChange={(e) => setUrl(e.target.value)} />
+      <input type="text" placeholder="www.YourWebsite.com" value={url} onChange={(e) => setUrl(e.target.value)} />
       <button onClick={generateQRCode}>Generate QR-code</button>
       {qrcode && <>
         <img src={qrcode} alt="" />
